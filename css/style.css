@@ -3,8 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
 body {
   width: 100vw;
   height: 100vh;
@@ -14,7 +12,6 @@ body {
   gap: 10px;
   background-image: url("../img/bg.jpg");
 }
-
 .hamburger {
   width: 5rem;
   height: 5rem;
@@ -24,14 +21,12 @@ body {
   justify-content: space-around;
   cursor: pointer;
 }
-
 .hamburger div {
   width: 4rem;
   height: 0.3rem;
   background-color: black;
   -webkit-transition: 0.5s ease-in;
 }
-
 .hamburger:hover div:nth-child(1) {
   transform: rotateZ(57deg) translate(19px, 16px);
 }
@@ -42,7 +37,6 @@ body {
   transform: rotateZ(-51deg) translate(21px, -19px);
 }
 /* ................ hamburger 1 ............... */
-
 .hamburger1 {
   width: 5rem;
   height: 5rem;
@@ -58,19 +52,16 @@ body {
   background-color: black;
   -webkit-transition: 0.5s ease-in;
 }
-
 .hamburger1:hover div:nth-child(1) {
   transform: rotateZ(-33deg) translate(-24px, 4px);
   width: 2rem;
 }
-
 .hamburger1:hover div:nth-child(3) {
   transform: rotateZ(33deg) translate(-24px, -6px);
 
   width: 2rem;
 }
 /* .................. hamburger 2 .................. */
-
 .hamburger2 {
   width: 5rem;
   height: 5rem;
@@ -87,19 +78,15 @@ body {
   background-color: black;
   -webkit-transition: 0.5s ease-in;
 }
-
 .hamburger2:hover div:nth-child(1) {
   transform: rotateZ(-33deg) translate(-24px, 4px);
   width: 2rem;
 }
-
 .hamburger2:hover div:nth-child(3) {
   transform: rotateZ(33deg) translate(-24px, -6px);
-
   width: 2rem;
 }
 /* ....................... hamburger 3 .................. */
-
 .hamburger3 {
   width: 5rem;
   height: 5rem;
@@ -115,11 +102,9 @@ body {
   background-color: black;
   transition: 0.5s ease-in;
 }
-
 .hamburger3:hover div:nth-child(1) {
   transform: rotateZ(-53deg) translate(-31px, 24px);
 }
-
 .hamburger3:hover div:nth-child(2) {
   border: 1px black solid;
   border-radius: 50%;
@@ -128,7 +113,6 @@ body {
   height: 6rem;
   opacity: 1;
 }
-
 .hamburger3:hover div:nth-child(3) {
   transform: rotateZ(57deg) translate(-30px, -17px);
 }
@@ -189,22 +173,21 @@ body {
 }
 
 /* ................... hamburger6 ................. */
-
 .hamburger6 {
-    width: 5rem;
-    height: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    cursor: pointer;
-  }
-  .hamburger6 div {
-    width: 4rem;
-    height: 0.3rem;
-    background-color: black;
-    transition: 0.5s ease-in;
-  }
-.hamburger6:hover div{
-    transform:rotate(360deg) ;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.hamburger6 div {
+  width: 4rem;
+  height: 0.3rem;
+  background-color: black;
+  transition: 0.5s ease-in;
+}
+.hamburger6:hover div {
+  transform: rotate(360deg);
 }
